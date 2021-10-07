@@ -25,5 +25,5 @@ updates:
       prefix: "yarn"
     labels:
       - "dependencies"
-      - "yarn"
+      - "npm"
 
