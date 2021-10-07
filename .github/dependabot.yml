@@ -22,7 +22,7 @@ updates:
     schedule:
       interval: "daily"
     commit-message:
-      prefix: "yarn"
+      prefix: "npm"
     labels:
       - "dependencies"
       - "npm"
