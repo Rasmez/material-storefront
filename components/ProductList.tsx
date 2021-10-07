@@ -49,7 +49,7 @@ export function ProductList() {
                             <Item>
                                 <Typography variant="h5" gutterBottom component="div">{name}</Typography>
                                 <Image
-                                    src={thumbnail!.url}
+                                    src={thumbnail?.url}
                                     alt={name}
                                     width={164}
                                     height={164}
