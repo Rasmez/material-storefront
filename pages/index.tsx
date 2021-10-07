@@ -9,6 +9,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import type { NextPage } from 'next';
 import * as React from 'react';
+import { LoginView } from '../components/LoginView';
 import { ProductList } from '../components/ProductList';
 
 const Home: NextPage = () => {
@@ -37,6 +38,7 @@ const Home: NextPage = () => {
       <CssBaseline />
       <Container fixed>
         <ProductList />
+        <LoginView />
       </Container>
     </React.Fragment>
   )
