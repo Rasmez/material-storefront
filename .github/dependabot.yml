@@ -25,5 +25,3 @@ updates:
       prefix: "npm"
     labels:
       - "dependencies"
-      - "npm"
-
